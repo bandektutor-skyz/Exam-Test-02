@@ -93,7 +93,7 @@ function finishExam() {
     document.getElementById("final-score").innerText = `${finalScore} / 50`;
     
     let evaluation = "";
-    if (finalScore >= 45) evaluation = "ยอดเยี่ยมที่สุด! เตรียมตัวเป็นว่าที่นายสิบตำรวจได้เลยครับ";
+    if (finalScore >= 45) evaluation = "ยอดเยี่ยมที่สุด! เตรียมตัวเป็นว่าที่ข้าราชการได้เลยครับ";
     else if (finalScore >= 30) evaluation = "เก่งมากครับ ผ่านเกณฑ์พื้นฐานแล้ว ฝึกเพิ่มอีกนิดนะครับ";
     else evaluation = "สู้ๆ ครับ กลับมาทบทวนข้อที่ผิดบ่อยๆ นะครับ!";
     
